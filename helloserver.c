@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 
-const char* ssid = "AbdulKhaliq";
-const char* password = "9445893437";
+const char* ssid = "ssid";
+const char* password = "ssid password";
 
 ESP8266WebServer server(80);
 
