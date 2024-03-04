@@ -6,33 +6,36 @@
 
 static const char my_ca_crt[] PROGMEM = R"EOF(
 -----BEGIN CERTIFICATE-----
-MIIDgzCCAmugAwIBAgIUKV5VePIYPW3l0Mz0y+/7cqOEJ0cwDQYJKoZIhvcNAQEL
-BQAwUTELMAkGA1UEBhMCSU4xCzAJBgNVBAgMAlROMRUwEwYDVQQKDAxGRU9TIFBW
-VCBMVEQxHjAcBgNVBAsMFUNlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0yNDAyMjcx
-MjIxNDNaFw0yNTAyMjYxMjIxNDNaMFExCzAJBgNVBAYTAklOMQswCQYDVQQIDAJU
-TjEVMBMGA1UECgwMRkVPUyBQVlQgTFREMR4wHAYDVQQLDBVDZXJ0aWZpY2F0ZSBB
-dXRob3JpdHkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDS1JQNbzrg
-v2ozIEu5MrAWp9B5oEUqRr304FRLigO1U6S1JJKnjtC8EKxxdN8wWKmw1biejreV
-d8KiYEnZPksNeX4ymTD2r4dI4qfAlmnv30iAtuE50FxXujTN4+wkZLW4bnoCgNzx
-Vdbv0RROVxO0n8dOYmm9LcZv/jpcp6q2BNDyMDT0LboCwC7w+9Ugg2XRaj1VXGLC
-nISfCAStqJqIltURF9bt5I/8prnPMdSxM1NoudgCCQjHwoZpVLYuTdDjucYLOv0k
-vZD+SBTPJW/dtgHQl4RTdKqGzQIw2u400wIL1H+uS+fQPkEoCL+rOpvwhyeQYl6i
-P0DPLP6bOUE3AgMBAAGjUzBRMB0GA1UdDgQWBBQ6ADug2Zx1iXgbW23jBqxMoSSr
-2TAfBgNVHSMEGDAWgBQ6ADug2Zx1iXgbW23jBqxMoSSr2TAPBgNVHRMBAf8EBTAD
-AQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBOIyYXPJwxxxo4JVz711pftL0+WKeoIcQZ
-rR2fHfeDqL9c1R8VwjDj6DGQBsRCNu7LeBq1s3hQf6F2ei2NgZviEy2d97P9rvmx
-lscrYFrmt6g+YQF8tTt8NsHWPuqtu3THJpjghu6XYx4Dv0Mt3gPOuhTUDyvSWMG/
-Rscl5YOiqw0zUX7N713vf7hktGlv7p9Lqxm98QRwCqxxYzZMyCtU4xQVuji3E8Ms
-QBEcmlJvBS42CybIpVjFE+23h7qukRj96KYUH9Xw/EWOH5kXMT+TEx2B7mLX1Wz+
-TZYXgZr4Wk7VIz7yHOW8uGvm4PPa3+GnPWp6r+S5OkrAnFcKaG7g
+MIIDpzCCAo+gAwIBAgIUNwXclLpxcnUQWwFKXkWtJRTLFq4wDQYJKoZIhvcNAQEL
+BQAwYzELMAkGA1UEBhMCSW4xCzAJBgNVBAgMAlRuMRAwDgYDVQQHDAdDaGVubmFp
+MRUwEwYDVQQKDAxGZW9zIFB2dCBMdGQxHjAcBgNVBAsMFUNlcnRpZmljYXRlIEF1
+dGhvcml0eTAeFw0yNDAzMDExMzU2NDVaFw0yNTAzMDExMzU2NDVaMGMxCzAJBgNV
+BAYTAkluMQswCQYDVQQIDAJUbjEQMA4GA1UEBwwHQ2hlbm5haTEVMBMGA1UECgwM
+RmVvcyBQdnQgTHRkMR4wHAYDVQQLDBVDZXJ0aWZpY2F0ZSBBdXRob3JpdHkwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCLgKOl1H/kZVC+sJ8V2MLkEogo
+NR/f8Rp8vuALEg50Xq68vC5L0hLJket3uSEEfWGz6vl+DSWB0z23PdrBejdjNAei
+jkQDC2vG+dDknlCgs1CHivRP9AaFoL56mEFjq9dvLrbnee0IEWyYsZTCC+B281Vt
+dgHLU7fqtL9XH5IyaC8Z9sNkJwUVHyvJgWtjdwyzkl4TiZIwjfKMuJWb4zmPHVKb
+yxHyY9CzDCvirqep3GjxZQKoQ4y6zBU9Mua85BsllDkl1PWZvri7PS3q31CTtL5X
+QxKRJ4ULc3tFTgt3kcM7wNB5FMZQUTG2VIRNTwPvl4oMPJULE/cHk69Rf12BAgMB
+AAGjUzBRMB0GA1UdDgQWBBSUrWLMW75Xvq4AtgPPaSqsCZLOODAfBgNVHSMEGDAW
+gBSUrWLMW75Xvq4AtgPPaSqsCZLOODAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3
+DQEBCwUAA4IBAQAr1dK6BPZf3aFs1GcGUgzBB868dwbLZXhQpfc2yB907J6D4XCO
+y1qZ+UQjw00gKyxljNB7apHPXKs5O06pprGC1m2Z+aTuWG53HvRDjugXCACYYibs
+BGF6NL9r8PT6QiduRDpnn4eeM3BpjcGAMz1n0Mc4LkWhuIoEQrmHPAVi2N1/X8Hl
+fYKRv1+hTShMHMyUj/xZJGRIQhGSHPTcwPPN9PjU7L0dJzwzRvDw4tJb0GKY5XDK
+L4qXqSQIioXwsQY9DGw46aqE9orOTAI6FbJgF8lT6rkf/kHOHb/2+P1u/hlSoxep
+nhGXvIt1q6gnXFNHuUiwnlCE4Eh4e504Mvku
 -----END CERTIFICATE-----
 )EOF";
 
 const char* ssid = "ssid";
-const char* password = "ssid-password";
-const char* mqtt_server = "mqtt-ip-address";
-const uint16_t mqtt_server_port = 8883;
+const char* password = "ssid password";
+const char* mqtt_server = "mqtt user name";
+const uint16_t mqtt_server_port = port value;
 const char* mqttTopic = "topic";
+const char* mqtt_username = "mqtt username";
+const char* mqtt_password = "mqtt password";
 
 BearSSL::WiFiClientSecure wifiClient;
 
@@ -63,7 +66,7 @@ void connect() {
     Serial.print("Attempting MQTT connection...");
     String mqttClientId = "ESP8266Client-";
     mqttClientId += String(random(0xffff), HEX);
-    if (mqttClient.connect(mqttClientId.c_str(), mqtt_server, ssid)) {
+    if (mqttClient.connect(mqttClientId.c_str(), mqtt_username, mqtt_password)) {
       Serial.println("connected");
     } else {
       Serial.print("failed, rc=");
@@ -103,7 +106,7 @@ void loop() {
     connect();
   }
   String myCurrentTime = timeClient.getFormattedTime();
-  mqttClient.publish(mqttTopic,("topic : " + myCurrentTime).c_str());
+  mqttClient.publish(mqttTopic,("tester : " + myCurrentTime).c_str());
   mqttClient.loop();
   timeClient.update();
 }
