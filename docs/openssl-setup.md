@@ -10,23 +10,14 @@ sudo apt-get install mosquitto-clients
 ```
 
 ```
-Mosquitto or mosquitto -v
-  
-Starts locally by using the default config.
-```
-
-First, I encountred with the Error which was saying that. The port is already in use but no problem. Configure the
-Mosquitto.conf and restart the mosquitto then it solved.
-
-```
-systemctl restart mosquitto. services 
+systemctl restart mosquitto.services 
 ```
 
 ```
 mosquitto or mosquitto -v  
-
-To check whether that error was coming or not.
+Starts locally by using the default config
 ```
+
 OPEN THE TERMINAL-2:
 #installation of ssl(ca) file by below command:
 
@@ -96,18 +87,19 @@ mosquitto_pub --cafile my-ca.crt -h mqtt.example.net -t hello -m world
 
 To create the configuration by giving the following Command 
 ```
-Cat mosquitto.conf
+cat mosquitto.conf
 ```
    
 Give the below format :
+```
+listener 8883
+allow_anonymous true
+cafile/home/path/folder-name/my-ca.crt
+certfile/home/path/folder-name/server.crt 
+keyfile/home/path/folder-name/server.key 
+require_certificate false
+``` 
 
-Listener 8883
-Allow_anonymous true
-Cafile/home/path/folder-name/my-ca.crt
-Certfile/home/path/folder-name/server.crt 
-Keyfile/home/path/folder-name/server.key 
-Require_certificate false
- 
 Check the above folders by giving the command:
 ```
 ls
